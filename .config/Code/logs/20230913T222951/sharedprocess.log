@@ -1,0 +1,30 @@
+2023-09-13 22:29:54.651 [info] Started initializing default profile extensions in extensions installation folder. file:///home/marina/.vscode/extensions
+2023-09-13 22:29:55.026 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/marina/.vscode/extensions Unable to create file 'vscode-userdata:/home/marina/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-09-13 22:29:55.026 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/marina/.vscode/extensions
+2023-09-13 22:30:35.174 [info] Getting Manifest... ms-python.python
+2023-09-13 22:30:35.196 [info] Installing extension: ms-python.python
+2023-09-13 22:30:36.435 [info] Getting Manifest... ms-python.vscode-pylance
+2023-09-13 22:30:36.750 [info] Installing extension: ms-python.vscode-pylance ms-python.python
+2023-09-13 22:30:47.706 [info] Extension signature is verified: ms-python.python
+2023-09-13 22:30:52.203 [info] Getting Manifest... ms-python.autopep8
+2023-09-13 22:30:52.230 [info] Installing extension: ms-python.autopep8
+2023-09-13 22:30:53.504 [info] Getting Manifest... ms-python.python
+2023-09-13 22:30:54.151 [info] Getting Manifest... ms-python.vscode-pylance
+2023-09-13 22:30:54.356 [info] Waiting for already requested installing extension ms-python.python ms-python.autopep8
+2023-09-13 22:30:54.356 [info] Waiting for already requested installing extension ms-python.vscode-pylance ms-python.autopep8
+2023-09-13 22:30:57.266 [info] Extension signature is verified: ms-python.autopep8
+2023-09-13 22:30:58.232 [info] Extracted extension to file:///home/marina/.vscode/extensions/ms-python.python-2023.16.0: ms-python.python
+2023-09-13 22:30:58.237 [info] Extracted extension to file:///home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0: ms-python.autopep8
+2023-09-13 22:30:58.240 [info] Renamed to /home/marina/.vscode/extensions/ms-python.python-2023.16.0
+2023-09-13 22:30:58.245 [info] Renamed to /home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0
+2023-09-13 22:30:58.251 [info] Extracting extension completed. ms-python.python
+2023-09-13 22:30:58.262 [info] Extracting extension completed. ms-python.autopep8
+2023-09-13 22:31:13.186 [info] Extension signature is verified: ms-python.vscode-pylance
+2023-09-13 22:31:29.614 [info] Extracted extension to file:///home/marina/.vscode/extensions/ms-python.vscode-pylance-2023.9.10: ms-python.vscode-pylance
+2023-09-13 22:31:29.644 [info] Renamed to /home/marina/.vscode/extensions/ms-python.vscode-pylance-2023.9.10
+2023-09-13 22:31:29.650 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-09-13 22:31:29.672 [info] Extension installed successfully: ms-python.python
+2023-09-13 22:31:29.673 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-09-13 22:31:29.674 [info] Finished waiting for already requested installing extension ms-python.python ms-python.autopep8
+2023-09-13 22:31:29.675 [info] Finished waiting for already requested installing extension ms-python.vscode-pylance ms-python.autopep8
+2023-09-13 22:31:29.676 [info] Extension installed successfully: ms-python.autopep8

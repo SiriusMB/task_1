@@ -1,0 +1,105 @@
+2023-09-14 09:25:06.689 [info] Name: autopep8
+2023-09-14 09:25:06.689 [info] Module: autopep8
+2023-09-14 09:25:06.689 [info] Python extension loading
+2023-09-14 09:25:06.689 [info] Waiting for interpreter from python extension.
+2023-09-14 09:25:06.689 [info] No interpreter found from setting autopep8.interpreter
+2023-09-14 09:25:06.689 [info] Getting interpreter from ms-python.python extension for workspace /home/marina
+2023-09-14 09:25:06.689 [info] Python extension loaded
+2023-09-14 09:25:06.689 [info] Interpreter from ms-python.python extension for /home/marina: /bin/python3
+2023-09-14 09:25:06.689 [info] Server run command: /bin/python3 /home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py
+2023-09-14 09:25:06.689 [info] Server: Start requested.
+2023-09-14 09:25:08.335 [info] CWD Server: /home/marina
+2023-09-14 09:25:08.381 [info] sys.path used to run Server:
+   /home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/libs
+   /home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool
+   /usr/lib/python310.zip
+   /usr/lib/python3.10
+   /usr/lib/python3.10/lib-dynload
+   /usr/local/lib/python3.10/dist-packages
+   /usr/lib/python3/dist-packages
+2023-09-14 09:25:08.384 [info] PYTHONPATH env variable used to run Server:
+   /home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/libs:
+2023-09-14 09:25:08.386 [info] Settings used to run Server:
+[]
+
+2023-09-14 09:25:08.387 [info] Global settings:
+{
+    "cwd": "/home/marina",
+    "workspace": "/home/marina",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-09-14 09:25:08.392 [info] /bin/python3 -m autopep8 --version
+2023-09-14 09:25:08.392 [info] CWD formatter: /home/marina
+2023-09-14 09:25:08.422 [info] [Error - 9:25:08 AM] Traceback (most recent call last):
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py", line 509, in _run_tool
+    result = utils.run_module(
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 153, in run_module
+    return _run_module(module, argv, use_stdin, source)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 140, in _run_module
+    runpy.run_module(module, run_name="__main__")
+  File "/usr/lib/python3.10/runpy.py", line 227, in run_module
+    return _run_code(code, {}, init_globals, run_name, mod_spec)
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/libs/autopep8.py", line 414, in <module>
+    del pycodestyle._checks['logical_line'][pycodestyle.continued_indentation]
+KeyError: <function continued_indentation at 0x7efd1863e4d0>
+
+2023-09-14 09:25:08.423 [info] Error while detecting autopep8 version:
+Traceback (most recent call last):
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py", line 201, in _log_version_info
+    result = _run_tool(["--version"], settings)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py", line 509, in _run_tool
+    result = utils.run_module(
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 153, in run_module
+    return _run_module(module, argv, use_stdin, source)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 140, in _run_module
+    runpy.run_module(module, run_name="__main__")
+  File "/usr/lib/python3.10/runpy.py", line 227, in run_module
+    return _run_code(code, {}, init_globals, run_name, mod_spec)
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/libs/autopep8.py", line 414, in <module>
+    del pycodestyle._checks['logical_line'][pycodestyle.continued_indentation]
+KeyError: <function continued_indentation at 0x7efd1863e4d0>
+
+2023-09-14 09:25:08.548 [info] /bin/python3 -m autopep8 --version
+2023-09-14 09:25:08.567 [info] CWD formatter: /home/marina
+2023-09-14 09:25:08.569 [info] [Error - 9:25:08 AM] Traceback (most recent call last):
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py", line 509, in _run_tool
+    result = utils.run_module(
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 153, in run_module
+    return _run_module(module, argv, use_stdin, source)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 140, in _run_module
+    runpy.run_module(module, run_name="__main__")
+  File "/usr/lib/python3.10/runpy.py", line 227, in run_module
+    return _run_code(code, {}, init_globals, run_name, mod_spec)
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/libs/autopep8.py", line 414, in <module>
+    del pycodestyle._checks['logical_line'][pycodestyle.continued_indentation]
+KeyError: <function continued_indentation at 0x7efd1863e4d0>
+
+2023-09-14 09:25:08.571 [info] Error while detecting autopep8 version:
+Traceback (most recent call last):
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py", line 201, in _log_version_info
+    result = _run_tool(["--version"], settings)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py", line 509, in _run_tool
+    result = utils.run_module(
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 153, in run_module
+    return _run_module(module, argv, use_stdin, source)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 140, in _run_module
+    runpy.run_module(module, run_name="__main__")
+  File "/usr/lib/python3.10/runpy.py", line 227, in run_module
+    return _run_code(code, {}, init_globals, run_name, mod_spec)
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/libs/autopep8.py", line 414, in <module>
+    del pycodestyle._checks['logical_line'][pycodestyle.continued_indentation]
+KeyError: <function continued_indentation at 0x7efd1863e4d0>
+

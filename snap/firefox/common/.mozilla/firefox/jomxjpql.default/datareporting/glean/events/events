@@ -1,0 +1,4 @@
+{"timestamp":2074889,"category":"serp","name":"impression","extra":{"provider":"google","shopping_tab_displayed":"false","source":"urlbar","impression_id":"7d7efa7b-abd9-496c-8abd-c43748198b36","partner_code":"ubuntu-sn","is_shopping_page":"false","tagged":"true"}}
+{"timestamp":2079659,"category":"serp","name":"abandonment","extra":{"impression_id":"7d7efa7b-abd9-496c-8abd-c43748198b36","reason":"navigation"}}
+{"timestamp":2079970,"category":"serp","name":"impression","extra":{"shopping_tab_displayed":"false","source":"unknown","provider":"google","is_shopping_page":"false","impression_id":"de989f3c-338f-477b-984e-07ec019c3839","partner_code":"ubuntu-sn","tagged":"true"}}
+{"timestamp":2081196,"category":"serp","name":"abandonment","extra":{"reason":"navigation","impression_id":"de989f3c-338f-477b-984e-07ec019c3839"}}

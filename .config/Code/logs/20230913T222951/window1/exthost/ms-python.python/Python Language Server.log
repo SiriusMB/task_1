@@ -1,0 +1,13 @@
+2023-09-13 22:31:40.973 [info] [Info  - 10:31:40 PM] (2638) Pylance language server 2023.9.10 (pyright c70adefc) starting
+2023-09-13 22:31:40.973 [info] [Info  - 10:31:40 PM] (2638) Server root directory: /home/marina/.vscode/extensions/ms-python.vscode-pylance-2023.9.10/dist
+2023-09-13 22:31:41.029 [info] [Info  - 10:31:41 PM] (2638) Starting service instance "<default>"
+2023-09-13 22:31:41.083 [info] [Info  - 10:31:41 PM] (2638) Setting pythonPath for service "<default>": "/bin/python3"
+2023-09-13 22:31:41.083 [info] [Info  - 10:31:41 PM] (2638) Setting pythonPath for service "<default>": "/bin/python3"
+2023-09-13 22:31:41.084 [info] [Warn  - 10:31:41 PM] (2638) stubPath typings is not a valid directory.
+2023-09-13 22:31:41.119 [info] [Info  - 10:31:41 PM] (2638) Assuming Python version 3.10
+2023-09-13 22:31:41.204 [info] [Info  - 10:31:41 PM] (2638) No source files found.
+2023-09-13 22:31:41.364 [info] [Info  - 10:31:41 PM] (2638) Setting pythonPath for service "<default>": "/bin/python3"
+2023-09-13 22:31:41.364 [info] [Info  - 10:31:41 PM] (2638) Setting pythonPath for service "<default>": "/bin/python3"
+2023-09-13 22:31:41.364 [info] [Warn  - 10:31:41 PM] (2638) stubPath typings is not a valid directory.
+2023-09-13 22:31:41.412 [info] [Info  - 10:31:41 PM] (2638) Assuming Python version 3.10
+2023-09-13 22:31:41.481 [info] [Info  - 10:31:41 PM] (2638) No source files found.

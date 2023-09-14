@@ -1,0 +1,126 @@
+2023-09-13 22:31:38.304 [info] Name: autopep8
+2023-09-13 22:31:38.304 [info] Module: autopep8
+2023-09-13 22:31:38.304 [info] Python extension loading
+2023-09-13 22:31:38.304 [info] Waiting for interpreter from python extension.
+2023-09-13 22:31:38.427 [info] No interpreter found from setting autopep8.interpreter
+2023-09-13 22:31:38.427 [info] Getting interpreter from ms-python.python extension for workspace /home/marina
+2023-09-13 22:31:38.427 [info] Python extension loaded
+2023-09-13 22:31:38.429 [info] Interpreter from ms-python.python extension for /home/marina: /bin/python3
+2023-09-13 22:31:38.446 [info] Server run command: /bin/python3 /home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py
+2023-09-13 22:31:38.448 [info] Server: Start requested.
+2023-09-13 22:31:39.660 [info] CWD Server: /home/marina
+2023-09-13 22:31:39.661 [info] sys.path used to run Server:
+   /home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/libs
+   /home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool
+   /usr/lib/python310.zip
+   /usr/lib/python3.10
+   /usr/lib/python3.10/lib-dynload
+   /usr/local/lib/python3.10/dist-packages
+   /usr/lib/python3/dist-packages
+2023-09-13 22:31:39.662 [info] PYTHONPATH env variable used to run Server:
+   /home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/libs:
+2023-09-13 22:31:39.663 [info] Settings used to run Server:
+[]
+
+2023-09-13 22:31:39.664 [info] Global settings:
+{
+    "cwd": "/home/marina",
+    "workspace": "/home/marina",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-09-13 22:31:39.664 [info] /bin/python3 -m autopep8 --version
+2023-09-13 22:31:39.667 [info] CWD formatter: /home/marina
+2023-09-13 22:31:39.719 [info] [Error - 10:31:39 PM] Traceback (most recent call last):
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py", line 509, in _run_tool
+    result = utils.run_module(
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 153, in run_module
+    return _run_module(module, argv, use_stdin, source)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 140, in _run_module
+    runpy.run_module(module, run_name="__main__")
+  File "/usr/lib/python3.10/runpy.py", line 227, in run_module
+    return _run_code(code, {}, init_globals, run_name, mod_spec)
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/libs/autopep8.py", line 414, in <module>
+    del pycodestyle._checks['logical_line'][pycodestyle.continued_indentation]
+KeyError: <function continued_indentation at 0x7f5d6161b910>
+
+2023-09-13 22:31:39.721 [info] Error while detecting autopep8 version:
+Traceback (most recent call last):
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py", line 201, in _log_version_info
+    result = _run_tool(["--version"], settings)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py", line 509, in _run_tool
+    result = utils.run_module(
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 153, in run_module
+    return _run_module(module, argv, use_stdin, source)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 140, in _run_module
+    runpy.run_module(module, run_name="__main__")
+  File "/usr/lib/python3.10/runpy.py", line 227, in run_module
+    return _run_code(code, {}, init_globals, run_name, mod_spec)
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/libs/autopep8.py", line 414, in <module>
+    del pycodestyle._checks['logical_line'][pycodestyle.continued_indentation]
+KeyError: <function continued_indentation at 0x7f5d6161b910>
+
+2023-09-13 22:31:39.722 [info] /bin/python3 -m autopep8 --version
+2023-09-13 22:31:39.722 [info] CWD formatter: /home/marina
+2023-09-13 22:31:39.722 [info] [Error - 10:31:39 PM] Traceback (most recent call last):
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py", line 509, in _run_tool
+    result = utils.run_module(
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 153, in run_module
+    return _run_module(module, argv, use_stdin, source)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 140, in _run_module
+    runpy.run_module(module, run_name="__main__")
+  File "/usr/lib/python3.10/runpy.py", line 227, in run_module
+    return _run_code(code, {}, init_globals, run_name, mod_spec)
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/libs/autopep8.py", line 414, in <module>
+    del pycodestyle._checks['logical_line'][pycodestyle.continued_indentation]
+KeyError: <function continued_indentation at 0x7f5d6161b910>
+
+2023-09-13 22:31:39.723 [info] Error while detecting autopep8 version:
+Traceback (most recent call last):
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py", line 201, in _log_version_info
+    result = _run_tool(["--version"], settings)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_server.py", line 509, in _run_tool
+    result = utils.run_module(
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 153, in run_module
+    return _run_module(module, argv, use_stdin, source)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/tool/lsp_utils.py", line 140, in _run_module
+    runpy.run_module(module, run_name="__main__")
+  File "/usr/lib/python3.10/runpy.py", line 227, in run_module
+    return _run_code(code, {}, init_globals, run_name, mod_spec)
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/marina/.vscode/extensions/ms-python.autopep8-2023.6.0/bundled/libs/autopep8.py", line 414, in <module>
+    del pycodestyle._checks['logical_line'][pycodestyle.continued_indentation]
+KeyError: <function continued_indentation at 0x7f5d6161b910>
+
+2023-09-13 22:31:42.644 [info] [Trace - 10:31:42 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:43.558 [info] [Trace - 10:31:43 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:46.134 [info] [Trace - 10:31:46 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:47.424 [info] [Trace - 10:31:47 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:48.806 [info] [Trace - 10:31:48 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:50.608 [info] [Trace - 10:31:50 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:51.614 [info] [Trace - 10:31:51 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:52.819 [info] [Trace - 10:31:52 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:54.272 [info] [Trace - 10:31:54 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:55.964 [info] [Trace - 10:31:55 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:56.030 [info] [Trace - 10:31:56 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:56.092 [info] [Trace - 10:31:56 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:56.155 [info] [Trace - 10:31:56 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:56.162 [info] [Trace - 10:31:56 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:56.196 [info] [Trace - 10:31:56 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:56.215 [info] [Trace - 10:31:56 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:56.264 [info] [Trace - 10:31:56 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:31:56.283 [info] [Trace - 10:31:56 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:32:22.103 [info] [Trace - 10:32:22 PM] Sending notification 'textDocument/didOpen'.
+2023-09-13 22:32:22.115 [info] [Trace - 10:32:22 PM] Sending notification 'textDocument/didChange'.
+2023-09-13 22:32:22.162 [info] [Trace - 10:32:22 PM] Sending notification 'textDocument/didClose'.

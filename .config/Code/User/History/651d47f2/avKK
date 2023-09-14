@@ -1,0 +1,7 @@
+[alias]
+history = log --graph --oneline --decorate
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
